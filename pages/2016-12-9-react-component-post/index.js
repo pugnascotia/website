@@ -1,7 +1,7 @@
-const React = require('react')
-const DatePicker = require('./single-date-picker')
-require('react-dates/css/variables.scss')
-require('react-dates/css/styles.scss')
+const React = require('react');
+const DatePicker = require('./single-date-picker');
+require('react-dates/css/variables.scss');
+require('react-dates/css/styles.scss');
 
 class Post extends React.Component {
   render () {
@@ -16,13 +16,13 @@ class Post extends React.Component {
         <br />
         <p>(No doubt a secret dream of yours)</p>
       </div>
-    )
+    );
   }
 }
 
-export default Post
+export default Post;
 
 exports.data = {
   title: "A post written in Javascript!",
   date: "2016-12-09T12:40:32.169Z",
-}
+};

@@ -9,3 +9,6 @@ public
 
 *~
 *.swp
+*-debug.log
+
+.eslintcache
