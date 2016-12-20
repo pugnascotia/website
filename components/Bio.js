@@ -8,9 +8,7 @@ class Bio extends React.Component {
   render () {
     return (
       <p
-        style={{
-          marginBottom: rhythm(2.5),
-        }}
+        style={{ marginBottom: rhythm(2.5) }}
       >
         <img
           src={prefixLink(profilePic)}
@@ -23,7 +21,8 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        Written by <strong>{config.authorName}</strong> who lives and works in San Francisco building useful things. <a href="https://twitter.com/kylemathews">You should follow him on Twitter</a>
+        Written by <strong>{config.authorName}</strong> who lives and works in San Francisco building useful things.
+        <a href="https://twitter.com/pugnascotia">You should follow him on Twitter</a>
       </p>
     );
   }
